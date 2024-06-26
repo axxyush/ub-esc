@@ -1,30 +1,30 @@
 import React from "react";
-import vocallens from "../images/vocallens.png";
-import steponevocal from "../images/steponevocal.avif";
-import steptwovocal from "../images/steptwovocal.avif";
+import steponerfb from "../images/steponerfb.avif";
+import steptworfb from "../images/steptworfb.avif";
 import stepthreevocal from "../images/stepthreevocal.avif";
-import technologyVocal from "../images/technologyVocal.png";
+import rfbtechnology from "../images/rfbtechnology.png";
+import rfbio from "../images/RFbio.png";
 
-function Vocallens() {
+function RFBio() {
   return (
     <>
       {/* Hero */}
-      <div id="backontopforvocal" className=" px-4 pt-5 container my-5">
+      <div id="backontopforrfbio" className="px-4 pt-5 container my-5">
         <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
           <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
-            <h1 className="display-4 lh-1 fw-bold ">
-              VocalLens: Revolutionizing Vocal Health Analysis
+            <h1 className="display-4 lh-1 fw-bold">
+              mmSkin: Revolutionizing Skin Health Monitoring
             </h1>
             <p className="lead">
-              Empowering you to monitor your vocal health effortlessly with just
-              a smartphone.
+              Empowering you to monitor your skin health effortlessly with
+              advanced RF technology.
             </p>
             <div className="my-4 d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
               <button className="downloadProject">Download</button>
             </div>
           </div>
           <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-            <img className="rounded-lg-3" src={vocallens} alt="" width={620} />
+            <img className="rounded-lg-3" src={rfbio} alt="" width={620} />
           </div>
         </div>
       </div>
@@ -35,25 +35,24 @@ function Vocallens() {
         className="position-relative overflow-hidden p-3 m-md-3 text-center"
       >
         <div className="col-md-8 p-lg-5 mx-auto my-5">
-          <h1 className="display-3 fw-bold">Welcome to VocalLens!</h1>
-          <h3 className="fw-normal  mb-4 my-4">
-            This project introduces a framework for screening Specific Language
-            Impairment (SLI) in children by detecting phoneme-level
-            mispronunciations. It translates these detections into symbolic
-            sequences for precise assessment, achieving high accuracy with AUC
-            over 0.71 and a recall rate up to 71.5% on the CHILDES dataset.
+          <h1 className="display-3 fw-bold">Welcome to mmSkin!</h1>
+          <h3 className="fw-normal mb-4 my-4">
+            Skin diseases affect millions globally due to a lack of early
+            diagnosis and monitoring. RFbio offers a cutting-edge solution using
+            radiofrequency technology for accurate and non-invasive skin health
+            monitoring. Our app provides real-time analysis and personalized
+            feedback, empowering users to take proactive steps towards healthier
+            skin.
           </h3>
         </div>
-        <div className="product-device shadow-sm d-none d-md-block" />
-        <div className="product-device product-device-2 shadow-sm d-none d-md-block" />
       </div>
 
       {/* How it Works */}
       <h2
         style={{ textAlign: "center" }}
-        className="display-7 fw-bold  lh-1 mb-3"
+        className="display-7 fw-bold lh-1 mb-3"
       >
-        How VocalLens Works
+        How mmSkin Works
       </h2>
       <section>
         <div className="steps">
@@ -62,7 +61,7 @@ function Vocallens() {
               <div className="card-imgs pv delete">
                 <img
                   style={{ height: "100%", marginLeft: "10%" }}
-                  src={steponevocal}
+                  src={steponerfb}
                   alt="Taking photo of oral cavity"
                 />
               </div>
@@ -72,7 +71,7 @@ function Vocallens() {
                 <div className="project-title">Step 1</div>
               </div>
               <span className="lighter">
-                Record a voice sample using the VocalLens app.
+                Use the RFbio device to scan your skin.
               </span>
             </div>
           </article>
@@ -82,7 +81,7 @@ function Vocallens() {
               <div className="card-imgs pv delete">
                 <img
                   style={{ height: "100%", marginLeft: "10%" }}
-                  src={steptwovocal}
+                  src={steptworfb}
                   alt="Taking photo of oral cavity"
                 />
               </div>
@@ -92,7 +91,7 @@ function Vocallens() {
                 <div className="project-title">Step 2</div>
               </div>
               <span className="lighter">
-                The app analyzes the voice sample using advanced algorithms.
+                Enter additional information like skin type and habits.
               </span>
             </div>
           </article>
@@ -112,50 +111,48 @@ function Vocallens() {
                 <div className="project-title">Step 3</div>
               </div>
               <span className="lighter">
-                Receive detailed results and suggestions for vocal care.
+                Receive detailed results and personalized skin care suggestions.
               </span>
             </div>
           </article>
         </div>
       </section>
-      {/* Technology */}
 
+      {/* Technology */}
       <div className="container col-xxl-8 px-4 py-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6">
             <img
-              src={technologyVocal}
+              src={rfbtechnology}
               className="d-block mx-lg-auto img-fluid"
               alt="Technology Overview"
               width={700}
               height={500}
               loading="lazy"
-              style={{ border: "1px solid black", borderRadius: "50px" }}
+              style={{ border: "1px solid black", borderRadius: "10px" }}
             />
             <p style={{ marginTop: "10px", marginLeft: "20px" }}>
-              <b>Fig.</b> A detailed view of the acoustic-based detection (ABD)
-              framework
+              <b>Fig.</b> Framework of the mmSkin system.
             </p>
           </div>
           <div className="col-lg-6">
-            <h1 className="display-5 fw-bold  lh-1 mb-3">The Technology</h1>
+            <h1 className="display-5 fw-bold lh-1 mb-3">The Technology</h1>
             <p className="lead">
-              VocalLens utilizes state-of-the-art voice analysis algorithms to
-              examine vocal health. The app is trained on a diverse dataset of
-              vocal samples, allowing it to accurately detect various vocal
-              conditions and provide instant feedback.
+              RFbio utilizes advanced radiofrequency technology to analyze skin
+              conditions. Our system is trained on a comprehensive dataset,
+              enabling accurate detection of various skin conditions. The app
+              provides immediate feedback, helping users make informed decisions
+              about their skin care.
             </p>
           </div>
         </div>
       </div>
-      {/* Features */}
 
+      {/* Features */}
       <h2
         id="features"
-        style={{
-          textAlign: "center",
-        }}
-        className="display-7 fw-bold  lh-1 mb-3 features"
+        style={{ textAlign: "center" }}
+        className="display-7 fw-bold lh-1 mb-3 features"
       >
         Features
       </h2>
@@ -167,12 +164,11 @@ function Vocallens() {
             </div>
             <div className="project-info">
               <div className="flex">
-                <div className="project-title">Self-Examination</div>
+                <div className="project-title">Accurate Monitoring</div>
               </div>
               <span className="lighter">
-                VocalLens allows you to perform a thorough self-examination of
-                your vocal health. By simply recording a voice sample, you can
-                receive a comprehensive analysis.
+                RFbio offers precise skin health monitoring, providing detailed
+                analysis and insights.
               </span>
             </div>
           </article>
@@ -186,9 +182,8 @@ function Vocallens() {
                 <div className="project-title">Friendly Interface</div>
               </div>
               <span className="lighter">
-                Our app is designed with user experience in mind. The intuitive
-                interface makes it easy for anyone to navigate and use the app
-                effectively.
+                The app is designed for ease of use, ensuring a seamless
+                experience for all users.
               </span>
             </div>
           </article>
@@ -203,8 +198,7 @@ function Vocallens() {
               </div>
               <span className="lighter">
                 We prioritize your privacy. All user data is securely stored and
-                processed, ensuring that your personal information remains
-                confidential.
+                processed, ensuring confidentiality.
               </span>
             </div>
           </article>
@@ -312,7 +306,7 @@ function Vocallens() {
       <div style={{ display: "flex", justifyContent: "center" }}>
         <a
           style={{ display: "flex", justifyContent: "center" }}
-          href="#backontopforvocal"
+          href="#backontopforrfbio"
           className="backontop"
         >
           Back on top
@@ -322,4 +316,4 @@ function Vocallens() {
   );
 }
 
-export default Vocallens;
+export default RFBio;

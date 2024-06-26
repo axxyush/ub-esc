@@ -5,20 +5,22 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Vocallens from "./components/Vocallens";
+import RFBio from "./components/RFBio";
 
 function App() {
   return (
     <>
       <Router>
+        <Navbar />
         <div className="container">
-          <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/vocallens" element={<Vocallens />} />
+            <Route path="/rfbio" element={<RFBio />} />
           </Routes>
-          <Footer />
         </div>
+        <Footer />
       </Router>
     </>
   );

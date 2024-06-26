@@ -39,12 +39,12 @@ function Projects() {
               title="VocalLens"
               description="An analytical framework aimed at identifying the risk of specific language impairment (SLI)."
               img={vocallens}
+              link="/vocallens"
             />
             <Projectitem
               title="BCIVocal"
               description="Technology that fuses brainwave and voice wave signals to produce high-quality audible speech."
               img={vocallens}
-              link="/vocallens"
             />
             <Projectitem
               title="NoteMD"
@@ -55,6 +55,7 @@ function Projects() {
               title="RFBio"
               description="A radio-frequency scanner developed to assess wounds underneath dressings."
               img={RFBio}
+              link="/rfbio"
             />
             <Projectitem
               title="PA Omics"

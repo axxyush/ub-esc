@@ -13,7 +13,7 @@ function Projectitem(props) {
             </h3>
             <p className="card-text">{props.description}</p>
             <Link
-              to="/vocallens"
+              to={props.link}
               className="d-flex justify-content-between align-items-center"
             >
               <button className="learn-more">
