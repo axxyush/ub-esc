@@ -8,6 +8,15 @@ function Home() {
     <>
       <Hero />
       <Projects />
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <a
+          style={{ display: "flex", justifyContent: "center" }}
+          href="#top"
+          className="backontop"
+        >
+          Back on top
+        </a>
+      </div>
     </>
   );
 }
