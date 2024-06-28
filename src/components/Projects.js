@@ -45,11 +45,13 @@ function Projects() {
               title="BCIVocal"
               description="Technology that fuses brainwave and voice wave signals to produce high-quality audible speech."
               img={vocallens}
+              link="/bcivocal"
             />
             <Projectitem
               title="NoteMD"
               description="An AI system designed to convert audio recordings between patients and doctors into medical notes."
               img={NoteMD}
+              link="notemd"
             />
             <Projectitem
               title="RFBio"

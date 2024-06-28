@@ -6,6 +6,8 @@ import About from "./components/About";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Vocallens from "./components/Vocallens";
 import RFBio from "./components/RFBio";
+import BCIVocal from "./components/BCIVocal";
+import NoteMD from "./components/NoteMD";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/vocallens" element={<Vocallens />} />
             <Route path="/rfbio" element={<RFBio />} />
+            <Route path="/bcivocal" element={<BCIVocal />} />
+            <Route path="/notemd" element={<NoteMD />} />
           </Routes>
         </div>
         <Footer />

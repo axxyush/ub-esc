@@ -62,7 +62,7 @@ function RFBio() {
                 <img
                   style={{ height: "100%", marginLeft: "10%" }}
                   src={steponerfb}
-                  alt="Taking photo of oral cavity"
+                  alt="Oral cavity"
                 />
               </div>
             </div>
@@ -82,7 +82,7 @@ function RFBio() {
                 <img
                   style={{ height: "100%", marginLeft: "10%" }}
                   src={steptworfb}
-                  alt="Taking photo of oral cavity"
+                  alt="Enter additional information"
                 />
               </div>
             </div>
@@ -102,7 +102,7 @@ function RFBio() {
                 <img
                   style={{ height: "100%", marginLeft: "10%" }}
                   src={stepthreevocal}
-                  alt="Taking photo of oral cavity"
+                  alt="Receive detailed results"
                 />
               </div>
             </div>
