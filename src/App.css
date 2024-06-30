@@ -535,3 +535,10 @@ button:hover .button-text {
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
+
+/* **************************** */
+
+.team-profile {
+  display: flex;
+  flex-wrap: wrap;
+}
