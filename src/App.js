@@ -8,6 +8,7 @@ import Vocallens from "./components/Vocallens";
 import RFBio from "./components/RFBio";
 import BCIVocal from "./components/BCIVocal";
 import NoteMD from "./components/NoteMD";
+import Research from "./components/Research";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/rfbio" element={<RFBio />} />
             <Route path="/bcivocal" element={<BCIVocal />} />
             <Route path="/notemd" element={<NoteMD />} />
+            <Route path="/research" element={<Research />} />
           </Routes>
         </div>
 

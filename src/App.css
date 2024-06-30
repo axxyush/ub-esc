@@ -443,3 +443,95 @@ button:hover .button-text {
   margin-top: 60px;
   padding: 20px;
 }
+
+/* ********************************* */
+.research-container {
+  margin: 20px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-research-border {
+  /* width: 100%; */
+  /* height: 60vh; */
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  margin: 20px;
+}
+
+.card-research {
+  position: relative;
+  width: 100%;
+  /* height: 90%; */
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 8px;
+  flex-wrap: wrap;
+}
+
+.card-research-des {
+  margin: 30px;
+  width: 70%;
+  /* height: 100%; */
+}
+
+.card-research img {
+  border: 2px solid black;
+}
+
+.card-research::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  left: -5px;
+  margin: auto;
+  width: 1px;
+  height: 1px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card-research::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+  transform: translate3d(0, 0, 0) scale(0.95);
+  filter: blur(20px);
+}
+
+.card-research:hover::after {
+  filter: blur(30px);
+}
+
+.card-research:hover::before {
+  transform: rotate(-90deg) scaleX(1.34) scaleY(0.77);
+}
+
+/* ************************************ */
+
+.sponsors {
+  height: 100px;
+}
+.sponsor-images {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}

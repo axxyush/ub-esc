@@ -50,6 +50,16 @@ function Navbar() {
                   About
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link
+                  className={`nav-link ${
+                    location.pathname === "/research" ? "active" : ""
+                  }`}
+                  to="/research"
+                >
+                  Research
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
